@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle bec-word-count",
+        "command": "bec-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "bec-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "bec-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
